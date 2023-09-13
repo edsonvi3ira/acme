@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    border: 10px;
+}
+
+.titulo {
+    font-family: 'Kanit',sans-serif;
+}
+
+body {  
+    background-color: #e6e6fa;
+    color: #191970;
+}
+
+header {
+    width: 100%; /* Largura */
+    height: 15vh; /* Altura */
+    text-shadow: 0 1px rgb(152, 184, 255) ;
+    font-size: 1.5rem;
+    /* Comportamento da caixa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(155, 209, 253);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top: 1px solid   ;
+    border-bottom: 1px solid #191970;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #191970;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #191970;
+    text-shadow: 0 1px #e6e6fa;
+}
+
+nav a:hover {
+    text-shadow: 0 1px #e6e6fa;
+    transition: 0.9s all ;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+    
+}
+
+main {
+    width: 100%;
+}
+
+article h2 {
+    background-color: rgb(147, 157, 250);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+article p,ul {
+    padding-left: 16px;
+
+}
+
+ul {
+    padding-top: 4px;
+    padding-left: 37%;
+    font-style: italic;
+    list-style: circle;
+    padding-bottom: 26px;
+    padding-top: 26px;
+}
+
+footer {
+    border-top: 2px solid #191970;
+    text-align: right;
+    padding-top: 8px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.Nosso {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 200;
+}
+
+ul li.feature {
+    font-weight: 600;
+}
